@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9af87d8d-19f9-449d-b892-de4f42aa1501" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/ActivityserviceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/config/MongoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/config/RabbitMqConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/config/WebClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/controllers/ActivityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/dto/requestDtos/ActivityRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/dto/responseDtos/ActivityResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/entities/Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/enums/ActivityType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/repositories/ActivityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/services/ActivityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/services/UserValidationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/services/impl/ActivityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/java/com/fitness/activityservice/services/impl/UserValidationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activityservice/activityservice/src/test/java/com/fitness/activityservice/ActivityserviceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/AiserviceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/config/MongoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/config/RabbitMqConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/config/WebClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/controller/RecommendationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/entities/Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/entities/Recommendation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/repositories/RecommendationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/service/ActivityAIService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/service/ActivityMessageListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/service/GeminiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/service/RecommendationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/service/impl/ActivityAIServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/service/impl/ActivityMessageListenerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/service/impl/GeminiServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/java/com/fitness/aiservice/service/impl/RecommendationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiservice/aiservice/src/test/java/com/fitness/aiservice/AiserviceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/src/main/java/com/fitness/configserver/ConfigserverApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/src/main/resources/config/activity-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/src/main/resources/config/ai-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/src/main/resources/config/api-gateway.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/src/main/resources/config/user-service.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/configserver/src/test/java/com/fitness/configserver/ConfigserverApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka/src/main/java/com/server/eureka/EurekaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka/src/test/java/com/server/eureka/EurekaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/fitness/gateway/GatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/test/java/com/fitness/gateway/GatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/src/main/java/com/fitness/userservice/UserserviceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/src/main/java/com/fitness/userservice/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/src/main/java/com/fitness/userservice/dtos/requestDtos/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/src/main/java/com/fitness/userservice/dtos/responseDtos/UserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/src/main/java/com/fitness/userservice/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/src/main/java/com/fitness/userservice/enums/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/src/main/java/com/fitness/userservice/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/src/main/java/com/fitness/userservice/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/src/main/java/com/fitness/userservice/services/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/userservice/src/test/java/com/fitness/userservice/UserserviceApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3MY0vo4822ZHqmX2mvEc6kaTtVl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ActivityserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AiserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Configserver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConfigserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EurekaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.activityservice [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.aiservice [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.configserver [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.configserver [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eureka [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.userservice [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/malam/github desktop/fitness-microservices-gemini-ai&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\malam\github desktop\fitness-microservices-gemini-ai\configserver\src\main\java\com.fitness.configserver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.UserserviceApplication">
+    <configuration name="ActivityserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fitness.activityservice.ActivityserviceApplication" />
+      <module name="activityservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fitness.activityservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.fitness.configserver.ConfigserverApplication" />
+      <module name="configserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fitness.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.server.eureka.EurekaApplication" />
+      <module name="eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.server.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fitness.gateway.GatewayApplication" />
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fitness.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fitness.userservice.UserserviceApplication" />
+      <module name="userservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fitness.userservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.EurekaApplication" />
+      <item itemvalue="Application.ActivityserviceApplication" />
+      <item itemvalue="Application.ConfigserverApplication" />
+      <item itemvalue="Application.GatewayApplication" />
+      <item itemvalue="Application.UserserviceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserserviceApplication" />
+        <item itemvalue="Application.ActivityserviceApplication" />
+        <item itemvalue="Application.EurekaApplication" />
+        <item itemvalue="Application.ConfigserverApplication" />
+        <item itemvalue="Application.GatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9af87d8d-19f9-449d-b892-de4f42aa1501" name="Changes" comment="" />
+      <created>1795512426949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795512426949</updated>
+    </task>
+    <servers />
+  </component>
+</project>
